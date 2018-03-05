@@ -32,7 +32,6 @@ public class Main {
 		getStudentsAges(age30);
 		
 		Polymorfism poly = new Polymorfism();
-		poly.tranfsformObject();
 		poly.getSomething();
 		poly.init();
 		Parent poly1 = new Polymorfism();

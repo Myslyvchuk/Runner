@@ -2,36 +2,37 @@ package com.myslyv4uk.polymorfism;
 
 public class Polymorfism extends ParentClass implements Parent {
 
-	private int a;
-	
-	public Polymorfism(){
-		
-	}
-	
-	public Polymorfism( String s){
-		
-		this();
-	}
-	
-	public void tranfsformObject() {
+  private int a;
 
-	}
 
-	public void tranfsformObject(Object object) {
+  public Polymorfism() {
+    
+  }
 
-	}
-	
-	public void tranfsformObject(Object object, int param) {
+  public Polymorfism(String s) {
 
-	}
-	
-	public void tranfsformObject(Object object, Integer param) {
+    this();
+  }
 
-	}
+  void tranfsformObject() {
+int s;
+  }
 
-	@Override
-	public void getSomething() {
-		
-		
-	}
+  public void tranfsformObject(Object object) {
+
+  }
+
+  public void tranfsformObject(Object object, int param) {
+
+  }
+
+  public void tranfsformObject(Object object, Integer param) {
+
+  }
+
+  @Override
+  public void getSomething() {
+
+
+  }
 }
