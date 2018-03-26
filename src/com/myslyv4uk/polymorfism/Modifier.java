@@ -1,11 +1,15 @@
 package com.myslyv4uk.polymorfism;
 
-public class Modifier extends Polymorfism {
-	
-	public void someMethod() {
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
 
-		Modifier poly = new Modifier();
-		poly.tranfsformObject();
-		
-	}
+public class Modifier extends Polymorfism {
+ 
+  public void method(int[] arf) {
+    
+  }
+  
+    
 }

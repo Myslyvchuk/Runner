@@ -1,38 +1,16 @@
 package com.myslyv4uk.polymorfism;
 
+import java.awt.AWTException;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+
 public class Polymorfism extends ParentClass implements Parent {
 
-  private int a;
-
-
-  public Polymorfism() {
-    
+  
+  public  void a() throws IOException, AWTException {
+    ab();
+    Polymorfism po = new Polymorfism();
+    System.out.println("polym");
   }
 
-  public Polymorfism(String s) {
-
-    this();
-  }
-
-  void tranfsformObject() {
-int s;
-  }
-
-  public void tranfsformObject(Object object) {
-
-  }
-
-  public void tranfsformObject(Object object, int param) {
-
-  }
-
-  public void tranfsformObject(Object object, Integer param) {
-
-  }
-
-  @Override
-  public void getSomething() {
-
-
-  }
 }
